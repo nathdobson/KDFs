@@ -12,7 +12,7 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-hmac = "0.12.1"
+hmac = {path="../../MACs/hmac"}
 
 [dev-dependencies]
 blobby = "0.3"
